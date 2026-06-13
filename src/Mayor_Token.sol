@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Mayor_Token is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
         constructor()
-                ERC20("Mayowa Token", "MAY")
+                ERC20("Mayor_Token Token", "MAY")
                         Ownable(msg.sender)
                             {
                                         _mint(msg.sender, 1000000 * 10 ** decimals());
