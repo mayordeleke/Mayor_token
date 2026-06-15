@@ -36,6 +36,7 @@
                                                         uint256 amount = 500;
                                                                 token.approve(elizer, amount);
 
+                                                            
                                                                         vm.prank(elizer);
                                                                                 token.transferFrom(owner, bob, amount);
 
